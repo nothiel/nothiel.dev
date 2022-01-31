@@ -31,6 +31,7 @@ export default function CommandLine({lines, setLines}) {
                     break;
                 case '!easteregg':
                     link = 'https://matias.ma/nsfw/'
+                    break;
                 default:
                     appendOncCmd("rafash: command not found: " + e.target.value)
                     not_found = true
