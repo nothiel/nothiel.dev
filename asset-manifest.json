@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nothiel.dev/static/css/main.3df52e6c.css",
+    "main.js": "/nothiel.dev/static/js/main.5d9a9c08.js",
+    "index.html": "/nothiel.dev/index.html",
+    "main.3df52e6c.css.map": "/nothiel.dev/static/css/main.3df52e6c.css.map",
+    "main.5d9a9c08.js.map": "/nothiel.dev/static/js/main.5d9a9c08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3df52e6c.css",
+    "static/js/main.5d9a9c08.js"
+  ]
+}
