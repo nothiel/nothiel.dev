@@ -1,7 +1,6 @@
 import Draggable from 'react-draggable';
 import './home.css';
 import ASCII from '../Components/ascii';
-import Presentation from '../Components/presentation';
 import CommandLine from '../Components/cmd';
 import { useRef, useState } from 'react';
 
@@ -12,9 +11,6 @@ export default function Home() {
     let draggableNodeRef = useRef(null)
     const [lines, setLines] = useState([])
     return (
-        <>
-        <Presentation/>
-        <div>
         <Draggable nodeRef={draggableNodeRef}>
         <div ref={draggableNodeRef} className="base-class">
             <div className="card border border-dark">
@@ -32,7 +28,5 @@ export default function Home() {
             </div>
         </div>
         </Draggable>
-        </div>
-        </>
     )
 }

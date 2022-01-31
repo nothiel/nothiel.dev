@@ -12,7 +12,8 @@ export default function CommandLine({lines, setLines}) {
     const registerText = (e) => {
         if (e.key === 'Enter') {
             let link = ''
-            switch (e.target.value) {
+            let not_found = false
+            switch (String(e.target.value).toLowerCase()) {
                 case '!linkedin':
                     link = 'https://www.linkedin.com/in/rafael-barbosa-a908a7133/'
                     break;
@@ -28,11 +29,16 @@ export default function CommandLine({lines, setLines}) {
                 case '!gmail':
                     link = 'mailto:rafaellb2555@gmail.com?subject="Contato via Website"'
                     break;
+                case '!easteregg':
+                    link = 'https://matias.ma/nsfw/'
+                default:
+                    appendOncCmd("rafash: command not found: " + e.target.value)
+                    not_found = true
                 }
             if (link) {
                 window.open(link)
             }
-            appendOncCmd(e.target.value)
+            if (!not_found) appendOncCmd(e.target.value)
             e.target.value = ''
         }
     }
