@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(20, 18, 18, 0.781)
+}
+
+.base-class {
+    max-width: 100%;
+    position: absolute;
+}
+
+.card {
+    height: 480px;
+    width: 100%;
+    background-color: black;
+}
+
+.card-header {
+    height: 27px;
+    padding-top: 0;
+    text-align: center;
+    background-color: rgba(24,27,30,255);
+    color: lightgray;
+}
+
+.card-body {
+    color: lightgray;
+    font-size: 14px;
+    padding: 5px 2px;
+}
+
+.til {
+    color: rgba(109, 191, 230, 0.932);
+}
+
+.gt {
+    color: rgba(112, 248, 94, 0.932)
+}
+
+.cmd-output {
+    padding-bottom: 10px;
+}
