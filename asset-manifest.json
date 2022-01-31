@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nothiel.dev/static/css/main.3df52e6c.css",
-    "main.js": "/nothiel.dev/static/js/main.5d9a9c08.js",
+    "main.css": "/nothiel.dev/static/css/main.5ad216f1.css",
+    "main.js": "/nothiel.dev/static/js/main.ffc87c1e.js",
     "index.html": "/nothiel.dev/index.html",
-    "main.3df52e6c.css.map": "/nothiel.dev/static/css/main.3df52e6c.css.map",
-    "main.5d9a9c08.js.map": "/nothiel.dev/static/js/main.5d9a9c08.js.map"
+    "main.5ad216f1.css.map": "/nothiel.dev/static/css/main.5ad216f1.css.map",
+    "main.ffc87c1e.js.map": "/nothiel.dev/static/js/main.ffc87c1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3df52e6c.css",
-    "static/js/main.5d9a9c08.js"
+    "static/css/main.5ad216f1.css",
+    "static/js/main.ffc87c1e.js"
   ]
 }
