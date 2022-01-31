@@ -1,6 +1,6 @@
 import './cmd.css'
 
-export default function CommandLine({lines, setLines}) {
+export default function CommandLine({lines, setLines,iRef}) {
     const appendOncCmd = (v) => {
         let tmpLines = Array(v)
         setLines(state => state.concat(tmpLines))
@@ -44,5 +44,5 @@ export default function CommandLine({lines, setLines}) {
         }
     }
 
-    return <input type='text' className='input-text' onKeyPress={registerText}/>
+    return <input type='text' className='input-text' ref={iRef} onKeyPress={registerText}/>
 } 
