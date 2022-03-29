@@ -6,10 +6,10 @@ export default function ASCII() {
   / /_/ / __ `/ /_/ __ `/ _ \/ /  / __  / __ `/ ___/ __ \/ __ \/ ___/ __ `/<br/>
  / _, _/ /_/ / __/ /_/ /  __/ /  / /_/ / /_/ / /  / /_/ / /_/ (__  ) /_/ / <br/>
 /_/ |_|\__,_/_/  \__,_/\___/_/  /_____/\__,_/_/  /_.___/\____/____/\__,_/  <br/>
-        Bem-vindo ao Meu site pessoal! <br/>
-        para acesso às minhas redes  Sociais,
-        digite no terminal ! + o nome da rede ( i.e !linkedin )<br/>
-        Redes disponíveis: GitHub | LinkedIn | Gmail | Twitter | Whatsapp
+        Welcome to my personal website! <br/>
+        to access social media,
+        type the command on terminal using ! + contact type ( e.g !linkedin )<br/>
+        Available contacts: GitHub | LinkedIn | Gmail | Twitter | Whatsapp
         </plaintext>
     )
 }

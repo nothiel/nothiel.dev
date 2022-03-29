@@ -27,7 +27,7 @@ export default function CommandLine({lines, setLines,iRef}) {
                     link = 'https://wa.me/5511946459632'
                     break;
                 case '!gmail':
-                    link = 'mailto:rafaellb2555@gmail.com?subject="Contato via Website"'
+                    link = 'mailto:rafaellb2555@gmail.com?subject="Job proposition: 30k USD"'
                     break;
                 case '!easteregg':
                     link = 'https://matias.ma/nsfw/'
